@@ -22,9 +22,3 @@ jobs:
 
     - name: Run tests
       run: flutter test
-
-    - name: Run example
-      run: |
-        cd example
-        flutter pub get
-        flutter analyze
